@@ -7,6 +7,7 @@ import org.springframework.boot.runApplication
 import java.sql.DriverManager.println
 
 import com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData
+import com.microservices.demo.twitter.to.kafka.service.runner.StreamRunner
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.boot.context.properties.EnableConfigurationProperties
@@ -17,12 +18,17 @@ class TwitterToKafkaServiceApplication : CommandLineRunner {
 
     @Autowired
     private lateinit var twitterToKafkaServiceConfigData: TwitterToKafkaServiceConfigData
+    @Autowired
+    private lateinit var streamRunner: StreamRunner
+
     private var log: Logger = LoggerFactory.getLogger(TwitterToKafkaServiceApplication::class.java)
 
     override fun run(vararg args: String?) {
         println("App Starts")
         log.info(twitterToKafkaServiceConfigData.twitterKeywords.toString())
         log.info(twitterToKafkaServiceConfigData.welcomeMessage)
+
+        streamRunner.start()
     }
 }
 

@@ -9,5 +9,9 @@ import org.springframework.context.annotation.Configuration
 @ConstructorBinding
 data class TwitterToKafkaServiceConfigData(
     val twitterKeywords: List<String>,
-    val welcomeMessage: String
+    val welcomeMessage: String,
+    val enableMockTweets: Boolean,
+    val mockSleepMs: Long,
+    val mockMinTweetLength: Int,
+    val mockMaxTweetLength: Int
 )
