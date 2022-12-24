@@ -1,4 +1,4 @@
-package com.microservices.demo.twitter.to.kafka.service.config
+package com.mircoservices.demo.config
 
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.context.properties.ConfigurationProperties
