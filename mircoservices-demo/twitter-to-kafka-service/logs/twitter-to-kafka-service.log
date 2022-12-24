@@ -1,29 +1,17 @@
-2022-12-24 05:33:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 25272 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 05:33:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 05:33:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 05:33:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 05:33:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 05:33:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 05:33:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 05:33:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
-2022-12-24 05:33:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 05:33:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 05:33:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.299 seconds (JVM running for 3.004)
-2022-12-24 05:33:48 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 15:35:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 30216 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:35:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:35:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:35:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:35:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:35:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:35:26 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:35:26 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1493 ms
-2022-12-24 15:35:26 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:35:26 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:35:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-12-25 01:44:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 31208 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:44:25 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:44:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:44:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:44:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:44:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:44:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:44:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1361 ms
+2022-12-25 01:44:27 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'twitter-to-kafka-service-com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData': Could not bind properties to 'TwitterToKafkaServiceConfigData' : prefix=twitter-to-kafka-service, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData
+2022-12-25 01:44:27 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-25 01:44:27 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:35:26 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2022-12-25 01:44:27 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -31,338 +19,28 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData:
 
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:36:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 13096 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:36:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:36:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:36:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:36:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:36:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:36:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:36:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1300 ms
-2022-12-24 15:36:06 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:36:06 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:36:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:36:06 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:37:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 20372 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:37:02 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:37:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:37:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:37:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:37:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:37:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:37:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1275 ms
-2022-12-24 15:37:04 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:37:04 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:37:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:37:04 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:37:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 9264 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:37:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:37:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:37:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:37:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:37:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:37:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:37:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1286 ms
-2022-12-24 15:37:39 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:37:39 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:37:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:37:39 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:37:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 12792 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:37:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:37:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:37:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:37:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:37:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:37:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:37:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1234 ms
-2022-12-24 15:37:51 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:37:51 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:37:51 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:37:51 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:40:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 20544 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:40:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:40:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:40:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:40:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:40:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:40:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:40:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1319 ms
-2022-12-24 15:40:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:40:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:40:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:40:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:44:51 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 23764 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:44:51 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:44:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:44:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:44:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:44:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:44:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:44:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1234 ms
-2022-12-24 15:44:53 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:44:53 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:44:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:44:53 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:45:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 3516 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:45:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:45:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:45:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:45:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:45:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:45:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:45:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
-2022-12-24 15:45:15 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:45:15 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:45:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:45:15 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'java.lang.String' in your configuration.
-
-2022-12-24 15:47:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 29580 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:47:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:47:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:47:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:47:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:47:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:47:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:47:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
-2022-12-24 15:47:20 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'twitterToKafkaServiceConfigData': Could not bind properties to 'TwitterToKafkaServiceConfigData' : prefix=twitter-to-kafka-service, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$bbdb6645
-2022-12-24 15:47:20 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:47:20 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:47:20 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$bbdb6645:
-
-    Property: twitter-to-kafka-service.twitter-keywords[4]
-    Value: "ElasticSearch"
-    Origin: class path resource [application.yml] - 7:7
-    Reason: java.lang.IllegalStateException: No setter found for property: twitter-keywords
+    Reason: java.lang.NullPointerException: Cannot invoke "java.lang.Number.intValue()" because the return value of "sun.invoke.util.ValueConversions.primitiveConversion(sun.invoke.util.Wrapper, Object, boolean)" is null
 
 Action:
 
 Update your application's configuration
 
-2022-12-24 15:48:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 22204 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:48:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:48:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:48:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:48:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:48:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:48:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:48:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
-2022-12-24 15:48:18 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
-2022-12-24 15:48:18 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:48:18 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-12-25 01:46:28 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 14116 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:46:28 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:46:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:46:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:46:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:46:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:46:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:46:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1368 ms
+2022-12-25 01:46:30 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'twitter-to-kafka-service-com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData': Could not bind properties to 'TwitterToKafkaServiceConfigData' : prefix=twitter-to-kafka-service, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData
+2022-12-25 01:46:30 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-25 01:46:30 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:48:18 [main] ERROR o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationKt.main(TwitterToKafkaServiceApplication.kt:33)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
-	... 20 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:83)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
-	... 31 common frames omitted
-Caused by: java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
-	at java.base/java.lang.Class.getConstructor0(Class.java:3617)
-	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2786)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:78)
-	... 32 common frames omitted
-2022-12-24 15:54:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 27520 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 15:54:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 15:54:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 15:54:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 15:54:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 15:54:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 15:54:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 15:54:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1271 ms
-2022-12-24 15:54:52 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 15:54:52 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 15:54:52 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 15:54:52 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2022-12-25 01:46:30 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -370,30 +48,28 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData:
 
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
+    Reason: java.lang.NullPointerException: Cannot invoke "java.lang.Number.intValue()" because the return value of "sun.invoke.util.ValueConversions.primitiveConversion(sun.invoke.util.Wrapper, Object, boolean)" is null
 
 Action:
 
-Consider defining a bean of type 'java.lang.String' in your configuration.
+Update your application's configuration
 
-2022-12-24 16:01:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 27292 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 16:01:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 16:01:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 16:01:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 16:01:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 16:01:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 16:01:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 16:01:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1292 ms
-2022-12-24 16:01:34 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 16:01:34 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 16:01:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-12-25 01:46:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 28752 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:46:39 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:46:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:46:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:46:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:46:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:46:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:46:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1384 ms
+2022-12-25 01:46:40 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'twitter-to-kafka-service-com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData': Could not bind properties to 'TwitterToKafkaServiceConfigData' : prefix=twitter-to-kafka-service, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'twitter-to-kafka-service.enable-mock-tweets' to boolean
+2022-12-25 01:46:40 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-25 01:46:40 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 16:01:34 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2022-12-25 01:46:40 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -401,30 +77,31 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+Failed to bind properties under 'twitter-to-kafka-service.enable-mock-tweets' to boolean:
 
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
+    Property: twitter-to-kafka-service.enable-mock-tweets
+    Value: "1"
+    Origin: class path resource [application.yml] - 9:23
+    Reason: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.Integer] to type [boolean]
 
 Action:
 
-Consider defining a bean of type 'java.lang.String' in your configuration.
+Update your application's configuration
 
-2022-12-24 16:02:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 23712 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 16:02:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 16:02:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 16:02:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 16:02:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 16:02:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 16:02:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 16:02:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1335 ms
-2022-12-24 16:02:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-2022-12-24 16:02:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 16:02:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2022-12-25 01:46:52 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 25064 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:46:52 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:46:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:46:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:46:54 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:46:54 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:46:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:46:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1409 ms
+2022-12-25 01:46:54 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'twitter-to-kafka-service-com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData': Could not bind properties to 'TwitterToKafkaServiceConfigData' : prefix=twitter-to-kafka-service, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData
+2022-12-25 01:46:54 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-25 01:46:54 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 16:02:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2022-12-25 01:46:54 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -432,541 +109,227 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData:
 
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
+    Reason: java.lang.NullPointerException: Cannot invoke "java.lang.Number.intValue()" because the return value of "sun.invoke.util.ValueConversions.primitiveConversion(sun.invoke.util.Wrapper, Object, boolean)" is null
 
 Action:
 
-Consider defining a bean of type 'java.lang.String' in your configuration.
+Update your application's configuration
 
-2022-12-24 16:06:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 25964 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 16:06:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 16:06:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 16:06:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 16:06:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 16:06:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 16:06:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 16:06:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1245 ms
-2022-12-24 16:06:13 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-2022-12-24 16:06:13 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2022-12-24 16:06:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 16:06:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Field twitterToKafkaServiceConfigData in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
-
-Action:
-
-Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' in your configuration.
-
-2022-12-24 16:07:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 30488 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 16:07:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 16:07:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 16:07:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 16:07:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 16:07:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 16:07:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 16:07:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
-2022-12-24 16:07:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 16:07:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 16:07:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.272 seconds (JVM running for 2.765)
-2022-12-24 16:07:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 16:07:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:30:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 27000 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:30:10 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:30:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:30:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:30:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:30:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:30:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:30:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1395 ms
-2022-12-24 22:30:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:30:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:30:12 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.351 seconds (JVM running for 2.965)
-2022-12-24 22:30:12 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:30:12 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:30:12 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 22:30:12 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:30:13 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:30:13 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:36:55 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:36:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 2908 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:36:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:36:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:36:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:36:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:36:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:36:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:36:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1282 ms
-2022-12-24 22:36:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:36:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:36:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.196 seconds (JVM running for 2.691)
-2022-12-24 22:36:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:36:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:36:59 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 22:36:59 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:37:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:37:00 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:48:51 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:48:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 29164 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:48:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:48:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:48:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:48:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:48:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:48:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:48:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1415 ms
-2022-12-24 22:48:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:48:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:48:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.353 seconds (JVM running for 2.847)
-2022-12-24 22:48:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:48:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:48:55 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 22:48:55 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:48:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:48:56 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:51:16 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:51:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 29372 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:51:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:51:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:51:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:51:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:51:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:51:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:51:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
-2022-12-24 22:51:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:51:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:51:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.325 seconds (JVM running for 2.834)
-2022-12-24 22:51:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:51:20 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:51:20 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 22:51:20 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationKt.main(TwitterToKafkaServiceApplication.kt:41)
-Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
-	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
-	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.addFilter(TwitterKafkaStreamRunner.kt:45)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.kt:32)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.kt:31)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
-	... 5 common frames omitted
-2022-12-24 22:51:20 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:52:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 30668 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:52:44 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:52:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:52:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:52:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:52:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:52:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:52:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1374 ms
-2022-12-24 22:52:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:52:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:52:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.345 seconds (JVM running for 2.843)
-2022-12-24 22:52:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:52:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:52:46 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 22:52:46 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationKt.main(TwitterToKafkaServiceApplication.kt:41)
-Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
-	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
-	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.addFilter(TwitterKafkaStreamRunner.kt:45)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.kt:32)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.kt:31)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
-	... 5 common frames omitted
-2022-12-24 22:52:46 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:53:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 22984 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:53:22 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:53:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:53:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:53:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:53:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:53:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:53:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1368 ms
-2022-12-24 22:53:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:53:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:53:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.311 seconds (JVM running for 2.808)
-2022-12-24 22:53:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:53:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:53:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 22:53:24 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationKt.main(TwitterToKafkaServiceApplication.kt:41)
-Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
-	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
-	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.addFilter(TwitterKafkaStreamRunner.kt:45)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.kt:32)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.kt:31)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
-	... 5 common frames omitted
-2022-12-24 22:53:24 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:54:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 28900 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:54:47 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:54:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:54:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:54:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:54:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:54:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:54:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1354 ms
-2022-12-24 22:54:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:54:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:54:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.267 seconds (JVM running for 2.769)
-2022-12-24 22:54:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:54:49 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:54:49 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 22:54:49 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:54:49 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:54:49 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:54:54 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:54:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 15908 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:54:57 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:54:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:54:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:54:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:54:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:54:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:54:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1364 ms
-2022-12-24 22:54:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:54:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:54:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.301 seconds (JVM running for 2.793)
-2022-12-24 22:54:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:54:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:54:59 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-12-24 22:54:59 [main] ERROR o.s.boot.SpringApplication - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationKt.main(TwitterToKafkaServiceApplication.kt:41)
-Caused by: java.lang.IllegalStateException: Authentication credentials are missing. See http://twitter4j.org/en/configuration.html for details. See and register at http://apps.twitter.com/
-	at twitter4j.TwitterBaseImpl.ensureAuthorizationEnabled(TwitterBaseImpl.java:219)
-	at twitter4j.TwitterStreamImpl.filter(TwitterStreamImpl.java:325)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.addFilter(TwitterKafkaStreamRunner.kt:45)
-	at com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner.start(TwitterKafkaStreamRunner.kt:32)
-	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication.run(TwitterToKafkaServiceApplication.kt:31)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768)
-	... 5 common frames omitted
-2022-12-24 22:54:59 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 22:59:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 20964 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 22:59:54 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 22:59:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 22:59:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:59:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 22:59:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 22:59:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 22:59:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1369 ms
-2022-12-24 22:59:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 22:59:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 22:59:56 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.263 seconds (JVM running for 2.751)
-2022-12-24 22:59:56 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:59:56 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 22:59:56 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 22:59:56 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 22:59:56 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 22:59:56 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:01:34 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 23:01:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 29100 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 23:01:36 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 23:01:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 23:01:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 23:01:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 23:01:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 23:01:38 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 23:01:38 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
-2022-12-24 23:01:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 23:01:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 23:01:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.249 seconds (JVM running for 2.763)
-2022-12-24 23:01:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 23:01:38 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 23:01:38 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 23:01:38 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 23:01:39 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:01:39 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:02:38 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 23:02:40 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 27608 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 23:02:40 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 23:02:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 23:02:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 23:02:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 23:02:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 23:02:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 23:02:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1352 ms
-2022-12-24 23:02:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 23:02:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 23:02:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.275 seconds (JVM running for 2.88)
-2022-12-24 23:02:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 23:02:42 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 23:02:42 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 23:02:42 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 23:02:42 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:02:42 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:07:14 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
-2022-12-24 23:07:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 25344 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
-2022-12-24 23:07:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
-2022-12-24 23:07:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2022-12-24 23:07:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2022-12-24 23:07:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-24 23:07:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
-2022-12-24 23:07:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-24 23:07:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1348 ms
-2022-12-24 23:07:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2022-12-24 23:07:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2022-12-24 23:07:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.231 seconds (JVM running for 2.753)
-2022-12-24 23:07:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 23:07:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
-2022-12-24 23:07:18 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
-2022-12-24 23:07:18 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
-2022-12-24 23:07:18 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:07:18 [Twitter Stream consumer /  [1][Establishing connection]] WARN  twitter4j.TwitterStreamImpl - This account is not in required role. 403:The request is understood, but it has been refused. An accompanying error message will explain why. This code is used when requests are being denied due to update limits (https://support.twitter.com/articles/15364-about-twitter-limits-update-api-dm-and-following).
-<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 403 
-Please use V2 filtered and sample volume stream as alternatives
-</title>
-</head>
-<body>
-<h2>HTTP ERROR: 403</h2>
-<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
-<pre>    
-Please use V2 filtered and sample volume stream as alternatives
-</pre>
-</body>
-</html>
-
-2022-12-24 23:52:31 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter Stream
+2022-12-25 01:47:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 31080 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:47:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:47:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:47:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:47:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:47:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:47:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:47:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+2022-12-25 01:47:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:47:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 01:47:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.339 seconds (JVM running for 2.857)
+2022-12-25 01:47:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:47:43 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 01:47:43 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:47:43 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - 오류났다!
+twitter4j.TwitterException: Expected literal value at character 258 of {"created_at":"Sun Dec 25 01:47:43 KST 2022","id":"7859417366385701370","text":"blandit dolor elit ut arcu egestas sit egestas ut tellus ipsum nisi ElasticSearch arcu varius arcu dolor consectetur egestas varius Lorem quis quis","user":"8975086101048626909",}
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.simulateTwitterStream$lambda$0(MockKafkaStreamRunner.kt:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: twitter4j.JSONException: Expected literal value at character 258 of {"created_at":"Sun Dec 25 01:47:43 KST 2022","id":"7859417366385701370","text":"blandit dolor elit ut arcu egestas sit egestas ut tellus ipsum nisi ElasticSearch arcu varius arcu dolor consectetur egestas varius Lorem quis quis","user":"8975086101048626909",}
+	at twitter4j.JSONTokener.syntaxError(JSONTokener.java:486)
+	at twitter4j.JSONTokener.readLiteral(JSONTokener.java:317)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:141)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:395)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONObject.<init>(JSONObject.java:167)
+	at twitter4j.JSONObject.<init>(JSONObject.java:184)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	... 6 common frames omitted
+2022-12-25 01:49:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 4932 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:49:04 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:49:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:49:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:49:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:49:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:49:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:49:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1452 ms
+2022-12-25 01:49:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:49:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 01:49:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.474 seconds (JVM running for 2.998)
+2022-12-25 01:49:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:49:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 01:49:06 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:49:06 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - 오류났다!
+twitter4j.TwitterException: Value 6252660449556577086 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:194)
+	at twitter4j.StatusJSONImpl.<init>(StatusJSONImpl.java:91)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.simulateTwitterStream$lambda$0(MockKafkaStreamRunner.kt:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: twitter4j.JSONException: Value 6252660449556577086 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.JSON.typeMismatch(JSON.java:100)
+	at twitter4j.JSONObject.getJSONObject(JSONObject.java:718)
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:114)
+	... 8 common frames omitted
+2022-12-25 01:50:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 18896 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:50:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:50:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:50:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:50:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:50:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:50:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:50:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms
+2022-12-25 01:50:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:50:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 01:50:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.441 seconds (JVM running for 2.949)
+2022-12-25 01:50:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:50:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 01:50:07 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:50:07 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - 오류났다!
+twitter4j.TwitterException: Expected literal value at character 339 of {"created_at":"Sun Dec 25 01:50:07 KST 2022","id":"1355268443880802290","text":"quis varius dolor Curabitur consectetur consectetur blandit nisi Curabitur sit Nulla blandit Lorem ullamcorper elit MicroServices amet gravida elit Lorem nisi Curabitur consectetur gravida tellus varius quis Lorem gravida tellus","user":"5740621173552888876",}
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:57)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.simulateTwitterStream$lambda$0(MockKafkaStreamRunner.kt:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: twitter4j.JSONException: Expected literal value at character 339 of {"created_at":"Sun Dec 25 01:50:07 KST 2022","id":"1355268443880802290","text":"quis varius dolor Curabitur consectetur consectetur blandit nisi Curabitur sit Nulla blandit Lorem ullamcorper elit MicroServices amet gravida elit Lorem nisi Curabitur consectetur gravida tellus varius quis Lorem gravida tellus","user":"5740621173552888876",}
+	at twitter4j.JSONTokener.syntaxError(JSONTokener.java:486)
+	at twitter4j.JSONTokener.readLiteral(JSONTokener.java:317)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:141)
+	at twitter4j.JSONTokener.readObject(JSONTokener.java:395)
+	at twitter4j.JSONTokener.nextValue(JSONTokener.java:130)
+	at twitter4j.JSONObject.<init>(JSONObject.java:167)
+	at twitter4j.JSONObject.<init>(JSONObject.java:184)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	... 6 common frames omitted
+2022-12-25 01:50:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 21384 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:50:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:50:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:50:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:50:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:50:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:50:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:50:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1440 ms
+2022-12-25 01:50:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:50:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 01:50:19 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.333 seconds (JVM running for 2.839)
+2022-12-25 01:50:19 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:50:19 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 01:50:19 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:50:19 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - 오류났다!
+twitter4j.TwitterException: Value 3348479495436873980 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:194)
+	at twitter4j.StatusJSONImpl.<init>(StatusJSONImpl.java:91)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.simulateTwitterStream$lambda$0(MockKafkaStreamRunner.kt:80)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: twitter4j.JSONException: Value 3348479495436873980 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.JSON.typeMismatch(JSON.java:100)
+	at twitter4j.JSONObject.getJSONObject(JSONObject.java:718)
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:114)
+	... 8 common frames omitted
+2022-12-25 01:51:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 10540 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:51:15 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:51:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:51:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:51:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:51:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:51:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:51:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1411 ms
+2022-12-25 01:51:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:51:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 01:51:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.372 seconds (JVM running for 2.907)
+2022-12-25 01:51:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:51:17 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 01:51:17 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:51:17 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 01:51:17 KST 2022","id":"945525801099513739","text":"amet nisi consectetur blandit gravida amet adipiscing arcu Curabitur Java quis Lorem ut ullamcorper quis egestas consectetur","user":"7307409129980357479"}
+2022-12-25 01:51:17 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - 오류났다!
+twitter4j.TwitterException: Value 7307409129980357479 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:194)
+	at twitter4j.StatusJSONImpl.<init>(StatusJSONImpl.java:91)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.simulateTwitterStream$lambda$0(MockKafkaStreamRunner.kt:82)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: twitter4j.JSONException: Value 7307409129980357479 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.JSON.typeMismatch(JSON.java:100)
+	at twitter4j.JSONObject.getJSONObject(JSONObject.java:718)
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:114)
+	... 8 common frames omitted
+2022-12-25 01:58:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 24072 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 01:58:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 01:58:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 01:58:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:58:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 01:58:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 01:58:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 01:58:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1409 ms
+2022-12-25 01:58:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 01:58:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 01:58:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.434 seconds (JVM running for 2.944)
+2022-12-25 01:58:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:58:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 01:58:09 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 01:58:09 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 01:58:09 KST 2022","id":"5256745157178045104","text":"quis sit nisi egestas Curabitur egestas ut elit consectetur sit dolor dolor quis arcu arcu dolor blandit sit sit adipiscing elit gravida adipiscing MicroServices consectetur adipiscing ipsum consectetur ullamcorper Nulla amet sit consectetur Nulla adipiscing ipsum Lorem arcu gravida Curabitur consectetur sit elit tellus varius","user":"322670599859046823"}
+2022-12-25 01:58:09 [pool-1-thread-1] ERROR c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - 오류났다!
+twitter4j.TwitterException: Value 322670599859046823 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:194)
+	at twitter4j.StatusJSONImpl.<init>(StatusJSONImpl.java:91)
+	at twitter4j.TwitterObjectFactory.createStatus(TwitterObjectFactory.java:55)
+	at com.microservices.demo.twitter.to.kafka.service.runner.impl.MockKafkaStreamRunner.simulateTwitterStream$lambda$0(MockKafkaStreamRunner.kt:82)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: twitter4j.JSONException: Value 322670599859046823 at user of type java.lang.String cannot be converted to JSONObject
+	at twitter4j.JSON.typeMismatch(JSON.java:100)
+	at twitter4j.JSONObject.getJSONObject(JSONObject.java:718)
+	at twitter4j.StatusJSONImpl.init(StatusJSONImpl.java:114)
+	... 8 common frames omitted
+2022-12-25 02:00:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 23984 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-25 02:00:53 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-25 02:00:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-25 02:00:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-25 02:00:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-25 02:00:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-25 02:00:55 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-25 02:00:55 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1389 ms
+2022-12-25 02:00:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-25 02:00:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-25 02:00:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.334 seconds (JVM running for 2.841)
+2022-12-25 02:00:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 02:00:55 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices
+2022-12-25 02:00:55 [main] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - Started filtering twitter Stream for keywords [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-25 02:00:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:00:55 KST 2022","id":"7945369116188262040","text":"arcu ut tellus amet dolor Nulla dolor consectetur Curabitur amet gravida ipsum arcu ullamcorper amet ipsum sit amet egestas dolor ullamcorper Curabitur varius arcu adipiscing arcu Spring sit Nulla ut adipiscing ut elit Nulla tellus varius Nulla consectetur arcu elit arcu gravida adipiscing adipiscing egestas tellus consectetur varius consectetur egestas nisi","user":{"id":"1500291018879720056"}}
+2022-12-25 02:00:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text arcu ut tellus amet dolor Nulla dolor consectetur Curabitur amet gravida ipsum arcu ullamcorper amet ipsum sit amet egestas dolor ullamcorper Curabitur varius arcu adipiscing arcu Spring sit Nulla ut adipiscing ut elit Nulla tellus varius Nulla consectetur arcu elit arcu gravida adipiscing adipiscing egestas tellus consectetur varius consectetur egestas nisi
+2022-12-25 02:01:05 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:01:05 KST 2022","id":"3857922888173869112","text":"tellus nisi adipiscing quis gravida sit nisi Lorem dolor egestas arcu Curabitur varius egestas adipiscing consectetur gravida quis Curabitur arcu gravida blandit adipiscing quis Lorem elit ipsum Nulla arcu tellus nisi quis amet gravida egestas amet consectetur gravida blandit Nulla nisi egestas blandit adipiscing arcu Curabitur Curabitur elit ElasticSearch nisi Lorem consectetur tellus elit sit sit tellus quis blandit amet consectetur sit ullamcorper tellus quis ullamcorper nisi nisi amet arcu ipsum quis dolor dolor Nulla varius dolor ullamcorper blandit tellus gravida ipsum adipiscing ut consectetur quis Nulla egestas amet tellus Lorem ullamcorper nisi Lorem amet dolor","user":{"id":"7431395724295161997"}}
+2022-12-25 02:01:05 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text tellus nisi adipiscing quis gravida sit nisi Lorem dolor egestas arcu Curabitur varius egestas adipiscing consectetur gravida quis Curabitur arcu gravida blandit adipiscing quis Lorem elit ipsum Nulla arcu tellus nisi quis amet gravida egestas amet consectetur gravida blandit Nulla nisi egestas blandit adipiscing arcu Curabitur Curabitur elit ElasticSearch nisi Lorem consectetur tellus elit sit sit tellus quis blandit amet consectetur sit ullamcorper tellus quis ullamcorper nisi nisi amet arcu ipsum quis dolor dolor Nulla varius dolor ullamcorper blandit tellus gravida ipsum adipiscing ut consectetur quis Nulla egestas amet tellus Lorem ullamcorper nisi Lorem amet dolor
+2022-12-25 02:01:15 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:01:15 KST 2022","id":"6587815495016362532","text":"arcu elit amet sit Nulla tellus tellus Lorem nisi MicroServices consectetur sit Nulla Nulla Nulla ipsum tellus","user":{"id":"7803682650341400832"}}
+2022-12-25 02:01:15 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text arcu elit amet sit Nulla tellus tellus Lorem nisi MicroServices consectetur sit Nulla Nulla Nulla ipsum tellus
+2022-12-25 02:01:25 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:01:25 KST 2022","id":"7526377636847764627","text":"Lorem consectetur ipsum gravida Lorem dolor blandit Lorem amet consectetur dolor quis ullamcorper Nulla Curabitur adipiscing Lorem tellus quis Lorem egestas Lorem nisi Lorem consectetur tellus adipiscing Nulla blandit quis egestas tellus gravida ut consectetur tellus arcu ullamcorper ipsum arcu amet consectetur ullamcorper tellus MicroServices quis consectetur tellus sit ipsum gravida ipsum sit arcu amet sit blandit consectetur elit ut dolor dolor sit quis dolor consectetur Curabitur elit dolor quis Lorem egestas dolor amet gravida amet sit consectetur varius amet ut quis gravida Lorem arcu elit ut","user":{"id":"1818621843493573433"}}
+2022-12-25 02:01:25 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Lorem consectetur ipsum gravida Lorem dolor blandit Lorem amet consectetur dolor quis ullamcorper Nulla Curabitur adipiscing Lorem tellus quis Lorem egestas Lorem nisi Lorem consectetur tellus adipiscing Nulla blandit quis egestas tellus gravida ut consectetur tellus arcu ullamcorper ipsum arcu amet consectetur ullamcorper tellus MicroServices quis consectetur tellus sit ipsum gravida ipsum sit arcu amet sit blandit consectetur elit ut dolor dolor sit quis dolor consectetur Curabitur elit dolor quis Lorem egestas dolor amet gravida amet sit consectetur varius amet ut quis gravida Lorem arcu elit ut
+2022-12-25 02:01:35 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:01:35 KST 2022","id":"6782109006740675663","text":"gravida ipsum sit tellus Lorem elit dolor ut Nulla egestas ipsum Curabitur tellus MicroServices adipiscing egestas varius varius Curabitur ut sit quis ut blandit nisi","user":{"id":"5669824395173760635"}}
+2022-12-25 02:01:35 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text gravida ipsum sit tellus Lorem elit dolor ut Nulla egestas ipsum Curabitur tellus MicroServices adipiscing egestas varius varius Curabitur ut sit quis ut blandit nisi
+2022-12-25 02:01:45 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:01:45 KST 2022","id":"5300045550168871061","text":"tellus Curabitur consectetur sit elit quis elit varius Curabitur Lorem egestas Lorem quis Java adipiscing egestas gravida nisi egestas egestas Curabitur consectetur nisi blandit varius","user":{"id":"8307849259660852566"}}
+2022-12-25 02:01:45 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text tellus Curabitur consectetur sit elit quis elit varius Curabitur Lorem egestas Lorem quis Java adipiscing egestas gravida nisi egestas egestas Curabitur consectetur nisi blandit varius
+2022-12-25 02:01:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.r.i.MockKafkaStreamRunner - {"created_at":"Sun Dec 25 02:01:55 KST 2022","id":"9181975480294828580","text":"ullamcorper Lorem nisi gravida ullamcorper varius Curabitur quis adipiscing ut elit ullamcorper quis amet adipiscing Curabitur varius gravida tellus arcu Curabitur consectetur Java Lorem dolor amet Lorem adipiscing gravida blandit ut sit Curabitur consectetur quis elit varius ipsum tellus adipiscing blandit amet varius","user":{"id":"2208205302367541540"}}
+2022-12-25 02:01:55 [pool-1-thread-1] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text ullamcorper Lorem nisi gravida ullamcorper varius Curabitur quis adipiscing ut elit ullamcorper quis amet adipiscing Curabitur varius gravida tellus arcu Curabitur consectetur Java Lorem dolor amet Lorem adipiscing gravida blandit ut sit Curabitur consectetur quis elit varius ipsum tellus adipiscing blandit amet varius
