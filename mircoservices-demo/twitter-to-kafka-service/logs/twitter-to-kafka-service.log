@@ -165,3 +165,324 @@ Action:
 
 Consider defining a bean of type 'java.lang.String' in your configuration.
 
+2022-12-24 15:40:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 20544 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 15:40:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 15:40:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 15:40:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 15:40:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 15:40:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 15:40:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 15:40:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1319 ms
+2022-12-24 15:40:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-12-24 15:40:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 15:40:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 15:40:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2022-12-24 15:44:51 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 23764 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 15:44:51 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 15:44:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 15:44:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 15:44:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 15:44:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 15:44:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 15:44:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1234 ms
+2022-12-24 15:44:53 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-12-24 15:44:53 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 15:44:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 15:44:53 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2022-12-24 15:45:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 3516 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 15:45:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 15:45:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 15:45:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 15:45:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 15:45:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 15:45:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 15:45:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
+2022-12-24 15:45:15 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-12-24 15:45:15 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 15:45:15 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 15:45:15 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2022-12-24 15:47:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 29580 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 15:47:18 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 15:47:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 15:47:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 15:47:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 15:47:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 15:47:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 15:47:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1257 ms
+2022-12-24 15:47:20 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'twitterToKafkaServiceConfigData': Could not bind properties to 'TwitterToKafkaServiceConfigData' : prefix=twitter-to-kafka-service, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$bbdb6645
+2022-12-24 15:47:20 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 15:47:20 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 15:47:20 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'twitter-to-kafka-service' to com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$bbdb6645:
+
+    Property: twitter-to-kafka-service.twitter-keywords[4]
+    Value: "ElasticSearch"
+    Origin: class path resource [application.yml] - 7:7
+    Reason: java.lang.IllegalStateException: No setter found for property: twitter-keywords
+
+Action:
+
+Update your application's configuration
+
+2022-12-24 15:48:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 22204 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 15:48:16 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 15:48:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 15:48:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 15:48:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 15:48:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 15:48:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 15:48:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1255 ms
+2022-12-24 15:48:18 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
+2022-12-24 15:48:18 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 15:48:18 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 15:48:18 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationKt.main(TwitterToKafkaServiceApplication.kt:33)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1]: No default constructor found; nested exception is java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:83)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 31 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData$$EnhancerBySpringCGLIB$$7b1ebce1.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3617)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2786)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:78)
+	... 32 common frames omitted
+2022-12-24 15:54:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 27520 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 15:54:50 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 15:54:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 15:54:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 15:54:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 15:54:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 15:54:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 15:54:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1271 ms
+2022-12-24 15:54:52 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-12-24 15:54:52 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 15:54:52 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 15:54:52 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2022-12-24 16:01:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 27292 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 16:01:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 16:01:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 16:01:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 16:01:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 16:01:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 16:01:34 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 16:01:34 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1292 ms
+2022-12-24 16:01:34 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-12-24 16:01:34 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 16:01:34 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 16:01:34 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2022-12-24 16:02:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 23712 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 16:02:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 16:02:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 16:02:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 16:02:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 16:02:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 16:02:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 16:02:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1335 ms
+2022-12-24 16:02:08 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceConfigData' defined in file [D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterToKafkaServiceConfigData.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-12-24 16:02:08 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 16:02:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 16:02:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData required a bean of type 'java.lang.String' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.lang.String' in your configuration.
+
+2022-12-24 16:06:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 25964 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 16:06:11 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 16:06:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 16:06:12 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 16:06:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 16:06:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 16:06:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 16:06:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1245 ms
+2022-12-24 16:06:13 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through field 'twitterToKafkaServiceConfigData'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-12-24 16:06:13 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-12-24 16:06:13 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 16:06:13 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field twitterToKafkaServiceConfigData in com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication required a bean of type 'com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData' in your configuration.
+
+2022-12-24 16:07:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 18.0.1 on DESKTOP-POITEHQ with PID 30488 (D:\##Github\SpringExample_Kotlin\mircoservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by wjdgu in D:\##Github\SpringExample_Kotlin\mircoservices-demo)
+2022-12-24 16:07:32 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2022-12-24 16:07:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-12-24 16:07:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-12-24 16:07:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-24 16:07:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.70]
+2022-12-24 16:07:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-24 16:07:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1377 ms
+2022-12-24 16:07:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-12-24 16:07:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 16:07:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 2.272 seconds (JVM running for 2.765)
+2022-12-24 16:07:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, MicroServices, Spring, Kafka, ElasticSearch]
+2022-12-24 16:07:34 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello Microservices

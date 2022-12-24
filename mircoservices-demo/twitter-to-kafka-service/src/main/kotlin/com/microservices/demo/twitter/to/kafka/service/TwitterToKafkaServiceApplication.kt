@@ -9,9 +9,11 @@ import java.sql.DriverManager.println
 import com.microservices.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
+import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
-class TwitterToKafkaServiceApplication: CommandLineRunner {
+@EnableConfigurationProperties(TwitterToKafkaServiceConfigData::class)
+class TwitterToKafkaServiceApplication : CommandLineRunner {
 
     @Autowired
     private lateinit var twitterToKafkaServiceConfigData: TwitterToKafkaServiceConfigData
